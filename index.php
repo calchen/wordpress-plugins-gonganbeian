@@ -57,7 +57,7 @@ function beian_num( $content ) {
 
 		echo '<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=' . $code . '" rel="nofollow" ' .
 		     'title="全国公安机关互联网站安全服务平台/互联网站备案信息" target="_blank">' .
-		     '<img style="padding-right: 5px;" src="' . $images . '"/>' .
+		     '<img style="padding-right: 5px;vertical-align: middle;" src="' . $images . '"/>' .
 		     $beian_num . "</a>\n";
 	}
 }
