@@ -39,7 +39,7 @@ function beian_callback() {
 	echo '<input name="beian_num" type="text" id="beian_num" value="' .
 	     $beian_num .
 	     '" class="regluar-text ltr" />' .
-	     '<p class="description">仅对WordPress自带主题有效，请填写如：苏公网安备 32010000000000号。/p>';
+	     '<p class="description">仅对WordPress自带主题有效，请填写如：苏公网安备 32010000000000号。</p>';
 }
 
 function beian_num( $content ) {
